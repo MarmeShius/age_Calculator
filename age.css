@@ -1,0 +1,50 @@
+body{
+    
+    background-image: url("green.webp") ;
+    display: flex;
+  align-items: center;
+  height: 100vh;
+    justify-content: center;
+  
+    text-align: center;
+}
+.box{
+    margin-top:30px;
+    background-color: rgb(120, 166, 129);
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+border: 3px solid rgb(34, 72, 34);
+}
+.head{
+    margin-top:40px;
+    font-size: 30px;
+    color: black;
+}
+input[type="date"]{
+    padding: 20px;
+    width: 150px;
+    height: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-top:20px;
+    background-color: rgb(67, 147, 97);
+    font-weight: bolder;
+}
+.result{
+     padding: 20px;
+     display: flex;
+     font-weight: bolder;
+     margin-top:  20px;
+     margin-left: 95px;
+      justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 20px;
+    border-radius: 10px;
+    border: 3px solid black;
+    text-align: center;
+    
+}
