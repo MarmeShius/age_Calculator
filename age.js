@@ -16,6 +16,6 @@ function calculateAge(){
         months+=12;
     }
     document.getElementById("result").textContent=
-    `Result: You are ${years} years, ${months} months, and ${days} old.`;
+    `Result: You are ${years} years, ${months} months, and ${days} days old.`;
 
 }
